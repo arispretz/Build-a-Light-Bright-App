@@ -1,0 +1,74 @@
+
+body {
+  background-color: #090909;
+  line-height: 1px;
+  padding: 1em;
+}
+
+h6 {
+  justify-content: center;
+  text-align: center;
+  color: magenta;
+}
+.btn {
+  border-radius: 100%;
+  box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.15);
+  color: #FFF;
+  height: 3rem;
+  width: 3rem;
+  padding: 0.75rem;
+  margin: 0 0.5rem;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0.5rem 0.1rem rgba(255, 255, 255, 0.5);
+}
+
+.circle {
+  background-color: #2C2D22;
+  border: 0.1rem solid rgba(255, 255, 255, 0.05);
+  border-radius: 100%;
+  cursor: pointer;
+  display: inline-block;
+  height: 1.5rem;
+  margin: 0.2rem;
+  width: 1.5rem; 
+}
+
+#err-mssg {
+  color: #f00;
+  font-size: 1.5rem;
+}
+
+#header {
+  align-items: center;
+  justify-content: center;
+  color: pink;
+}
+
+.hide { visibility: hidden; }
+
+#panel {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70rem;
+}
+
+#panelParent {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+#reset { 
+  background-color: #8b0000; 
+}
+
+.show { 
+  visibility: visible; 
+}
+
+#undo { 
+  background-color: #3467D5; 
+}
+
